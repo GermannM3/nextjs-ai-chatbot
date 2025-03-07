@@ -9,17 +9,17 @@ interface ChatModel {
 export const chatModels: Array<ChatModel> = [
   {
     id: 'chat-model-small',
-    name: 'Small model',
-    description: 'Small model for fast, lightweight tasks',
+    name: 'Mistral Small',
+    description: 'Fast and efficient Mistral AI model for everyday tasks',
   },
   {
     id: 'chat-model-large',
-    name: 'Large model',
-    description: 'Large model for complex, multi-step tasks',
+    name: 'Claude 3 Opus',
+    description: 'Powerful Claude 3 model for complex analysis and generation',
   },
   {
     id: 'chat-model-reasoning',
-    name: 'Reasoning model',
-    description: 'Uses advanced reasoning',
+    name: 'DeepSeek Reasoning',
+    description: 'Specialized model with advanced reasoning capabilities'
   },
 ];
